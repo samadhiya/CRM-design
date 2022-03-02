@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: url("images/homepage-desktop.png");
+    height: 893px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+
+
+.nav-menu {
+    list-style: none;
+    color: white;
+
+}
+
+.nav-menu li {
+    display: inline-block;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.container {
+    max-width: 1171px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding: 40px 20px;
+}
+
+.header-title {
+    max-width: 620px;
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 90px;
+}
+
+.header-text {
+    max-width: 600px;
+    color: white;
+    padding: 40px 0;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 40px;
+}
+
+#contact-btn {
+    padding: 10px 35px;
+    background: #ff8257;
+    border-radius: 50px;
+    color: white;
+    margin-left: 20px;
+}
+
+#gs-btn {
+    padding: 22px 60px;
+    background: white;
+    border-radius: 50px;
+    color: #2e3d62;
+    text-decoration: none;
+    font-size: 20px;
+
+}
