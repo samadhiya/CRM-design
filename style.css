@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+
 }
 
 header {
@@ -9,8 +11,11 @@ header {
     height: 893px;
     width: 100%;
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+
+
 
 }
 
@@ -19,6 +24,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 40px 0;
+
 }
 
 
@@ -46,10 +52,12 @@ nav {
 .container {
     max-width: 1171px;
     width: 100%;
+    height: 100%;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
     padding: 40px 20px;
+    margin-top: -1px !important;
 }
 
 .header-title {
@@ -86,4 +94,54 @@ nav {
     text-decoration: none;
     font-size: 20px;
 
+}
+
+footer {
+    /*padding: 100px;*/
+    background-color: white;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    /*margin-right: 140px;*/
+}
+
+.footer-col {
+    margin: 30px 0;
+    width: 20%;
+}
+
+.footer-logo {
+    margin: 30px 90px 30px 0;
+    width: 30%;
+}
+
+.footer-title {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.footer-text {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    line-height: 200%;
+}
+
+.footer-images {
+    margin-bottom: 1rem;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 1rem;
+    height: 3rem;
+    width: 100%;
+    background-color: #ededed;
+    margin-bottom: 2rem;
 }
